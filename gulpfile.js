@@ -24,12 +24,8 @@ var plumberErrorHandler = { errorHandler: notify.onError({
 })};
 
 gulp.task('css', function () {
-    return gulp.src([theme + 'css/src/**/*.scss', '!' + theme + 'css/src/vendor/bootstrap/**/*.scss'], {sourcemap: true})
-        .pipe(scsslint('scsslint.yml'))
-        .pipe(scsslint.reporter())
+    return gulp.src([theme + 'css/src/**/*.scss'])
         .pipe(sassimport())
-        .pipe(plumber(plumberErrorHandler))
-        .pipe(sourcemaps.init())
         .pipe(sass({
             includePaths: [theme + 'css/src/']
         }).on('error', sass.logError))
@@ -37,8 +33,6 @@ gulp.task('css', function () {
             browsers: ['last 2 versions', 'ie 8', 'ie 9'],
             cascade: false
         }))
-        .pipe(csso())
-        .pipe(sourcemaps.write('.'))
         .pipe(gulp.dest(theme + 'css/build/'));
 });
 

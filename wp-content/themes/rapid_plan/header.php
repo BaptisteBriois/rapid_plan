@@ -28,6 +28,9 @@
         <meta name="msapplication-TileImage" content="<?php bloginfo( 'template_directory' ); ?>/assets/favicon/mstile-144x144.png">
         <meta name="theme-color" content="#ffffff">
 
+        <!--Bootstrap -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
         <!-- Styles -->
         <?php $version = filemtime( get_theme_root().'/'.get_template() . '/css/build/main.css' ); ?>
         <link rel="stylesheet" href="<?php bloginfo( 'template_directory' ); ?>/css/build/main.css?v=<?= $version; ?>">
@@ -40,6 +43,18 @@
         <!-- Scripts -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="<?php bloginfo( 'template_directory' ); ?>/js/build/jquery.min.js"><\/script>')</script>
+
+        <!-- Important Owl stylesheet -->
+        <link rel="stylesheet" href="<?php bloginfo( 'template_directory' ); ?>/owl-carousel/owl.carousel.css">
+
+        <!-- Default Theme -->
+        <link rel="stylesheet" href="<?php bloginfo( 'template_directory' ); ?>/owl-carousel/owl.theme.css">
+
+        <!--  jQuery 1.7+  -->
+        <script src="<?php bloginfo( 'template_directory' ); ?>/owl-carousel/jquery-1.9.1.min.js"></script>
+
+        <!-- Include js plugin -->
+        <script src="<?php bloginfo( 'template_directory' ); ?>/owl-carousel/owl.carousel.js"></script>
         <?php wp_head(); ?>
     </head>
 
@@ -49,16 +64,28 @@
             <!-- your code HTML header here -->
         </header>
 
-        <?php
-        wp_nav_menu(array(
-            'theme_location'    => '',
-            'container'         => 'nav',
-            'menu_id'           => '',
-            'menu_class'        => '',
-            'container_id'      => '',
-            'container_class'   => ''
-        ));
-        ?>
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">Brand</a>
+                </div>
 
-        <section class="">
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#who">Présentation</a></li>
+                        <li><a href="#prestations">Prestations</a></li>
+                        <li><a href="#where">Adresses</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
 
