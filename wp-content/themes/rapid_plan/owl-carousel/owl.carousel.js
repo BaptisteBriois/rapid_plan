@@ -1518,9 +1518,10 @@ $(document).ready(function() {
         navigation : false, // Show next and prev buttons
         slideSpeed : 600,
         paginationSpeed : 800,
-        singleItem:true,
-        autoPlay:true,
-        stopOnHover:true
+        singleItem : true,
+        autoPlay : true,
+        pagination : false,
+        stopOnHover : true
 
         // "singleItem:true" is a shortcut for:
         // items : 1,

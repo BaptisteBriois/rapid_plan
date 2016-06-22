@@ -69,30 +69,26 @@
   -ms-transform: translate3d(0,0,0);
 }
 
-#owl-demo .item img{
+#owl-demo .item {
+	text-align: center;
+}
+
+#owl-demo .item img {
 	display: block;
 	width: 100%;
 	height: auto;
 }
 
-#owl-demo .item button{
+#owl-demo .item .btn {
 	position: absolute;
-	bottom: 30px;
-	right: 30px;
+	bottom: 50px;
 	background-color: transparent;
 	border: 2px solid white;
 	border-radius: 5px;
-	font-size: 40px;
+	font-size: 30px;
 	color: white;
 }
 
-#owl-demo .item button:hover {
-	position: absolute;
-	bottom: 30px;
-	right: 30px;
-	background-color: white;
-	border: 2px solid black;
-	border-radius: 5px;
-	font-size: 40px;
-	color: black;
+#owl-demo .item .btn:hover {
+	color: #adadad;
 }
