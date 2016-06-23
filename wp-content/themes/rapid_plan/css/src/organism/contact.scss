@@ -3,8 +3,44 @@
   background-color: #F5F5F5;
   .wpcf7 {
     text-align: center;
+    @media (min-width: 768px) {
+      .wpcf7-text {
+        border-radius: 5px;
+        width: 500px;
+        height: 30px;
+      }
+      .wpcf7-textarea {
+        border-radius: 5px;
+        width: 500px;
+      }
+    }
+    @media (max-width: 768px) {
+      .wpcf7-text {
+        border-radius: 5px;
+        width: 80%;
+        height: 30px;
+      }
+      .wpcf7-textarea {
+        border-radius: 5px;
+        width: 80%;
+      }
+    }
     .wpcf7-file {
       margin: auto;
+    }
+    .wpcf7-submit {
+      border-radius: 5px;
+      width: 100px;
+      height: 40px;
+      background-color: #F5F5F5;
+    }
+    .wpcf7-submit:hover {
+      background-color: rgb(84, 84, 84);
+      color: white;
+    }
+    .wpcf7-submit:disabled:hover {
+      background-color: #F5F5F5;
+      color: rgb(84, 84, 84);
     }
   }
 }

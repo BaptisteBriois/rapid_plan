@@ -3,5 +3,32 @@
   background-color: #F5F5F5; }
   #contact .wpcf7 {
     text-align: center; }
+    @media (min-width: 768px) {
+      #contact .wpcf7 .wpcf7-text {
+        border-radius: 5px;
+        width: 500px;
+        height: 30px; }
+      #contact .wpcf7 .wpcf7-textarea {
+        border-radius: 5px;
+        width: 500px; } }
+    @media (max-width: 768px) {
+      #contact .wpcf7 .wpcf7-text {
+        border-radius: 5px;
+        width: 80%;
+        height: 30px; }
+      #contact .wpcf7 .wpcf7-textarea {
+        border-radius: 5px;
+        width: 80%; } }
     #contact .wpcf7 .wpcf7-file {
       margin: auto; }
+    #contact .wpcf7 .wpcf7-submit {
+      border-radius: 5px;
+      width: 100px;
+      height: 40px;
+      background-color: #F5F5F5; }
+    #contact .wpcf7 .wpcf7-submit:hover {
+      background-color: #545454;
+      color: white; }
+    #contact .wpcf7 .wpcf7-submit:disabled:hover {
+      background-color: #F5F5F5;
+      color: #545454; }
