@@ -9,8 +9,7 @@
 ========================================= */
 /* Atoms
 ========================================= */
-section {
-  padding-bottom: 40px; }
+
   section h1 {
     text-align: center; }
   section h2 {
@@ -53,6 +52,7 @@ section {
   background-size: cover; }
 
 #where {
+
   padding-top: 40px;
   background: url("../../assets/images/where.jpg") center 0 no-repeat fixed;
   background-size: cover; }
@@ -67,6 +67,7 @@ section {
 
 #who {
   padding-top: 40px;
+  padding-bottom: 40px;
   background: url("../../assets/images/who.jpg") center 0 no-repeat fixed;
   background-size: cover; }
   #who h3 {
@@ -74,6 +75,9 @@ section {
     padding-right: 30px; }
   #who a {
     color: grey; }
+
+
+
 
 /* Templates
 ========================================= */

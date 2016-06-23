@@ -23,9 +23,11 @@
         <?php $getPosts = new WP_Query();
         $getPosts->query('showposts=10'); ?>
 
+        <div class="container-fluid">
+            <div class="row">
         <?php while ($getPosts->have_posts()) : $getPosts->the_post(); ?>
 
-            <div class="container-fluid prestation col-md-6" style="background-image: url(<?php echo wp_get_attachment_url( get_post_thumbnail_id() );?>);" onMouseOver="document.getElementById('presta<?php the_ID(); ?>').style.display='block'" onMouseOut="document.getElementById('presta<?php the_ID(); ?>').style.display='none'">
+            <div class="prestation col-md-6" style="background-image: url(<?php echo wp_get_attachment_url( get_post_thumbnail_id() );?>);" onMouseOver="document.getElementById('presta<?php the_ID(); ?>').style.display='block'" onMouseOut="document.getElementById('presta<?php the_ID(); ?>').style.display='none'">
                 <div id="presta<?php the_ID(); ?>" class="prestatext">
                     <h3><?php the_title(); ?></h3>
                     <?php the_content(); ?>
@@ -33,6 +35,8 @@
             </div>
 
         <?php endwhile; ?>
+            </div>
+        </div>
 
     </section>
 
@@ -80,8 +84,10 @@
 
         <h2>Contactez-nous</h2>
 
-        <?php echo do_shortcode('[contact-form-7 id="4" title="Contact form 1"]'); ?>
+        <div>
 
+        <?php echo do_shortcode('[contact-form-7 id="4" title="Contact form 1"]'); ?>
+        </div>
     </section>
 
 <?php get_footer(); ?>
