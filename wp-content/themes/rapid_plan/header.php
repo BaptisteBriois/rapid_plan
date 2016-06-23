@@ -74,7 +74,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="#">Brand</a>
+                    <a class="navbar-brand" href="http://localhost:8888/rapid_plan/">Brand</a>
                 </div>
 
                 <!-- Collect the nav links, forms, and other content for toggling -->
@@ -84,6 +84,7 @@
                         <li><a href="#prestations">Prestations</a></li>
                         <li><a href="#where">Adresses</a></li>
                         <li><a href="#contact">Contact</a></li>
+                        <li><a href="<?php the_permalink(); ?>/shop">Boutique</a></li>
                     </ul>
                 </div><!-- /.navbar-collapse -->
             </div><!-- /.container-fluid -->

@@ -1,4 +1,12 @@
 #who {
-  background: url("../../assets/images/photo1.jpg") center 0 no-repeat fixed;
-  background-size: 100% auto;
+  padding-top: 40px;
+  background: url("../../assets/images/who.jpg") center 0 no-repeat fixed;
+  background-size: cover;
+  h3 {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  a {
+    color: grey;
+  }
 }
