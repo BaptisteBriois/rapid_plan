@@ -1,7 +1,6 @@
 #contact {
   padding-top: 30px;
-  background: url("../../assets/images/contact.jpg") center 0 no-repeat fixed;
-  background-size: cover; }
+  background-color: #F5F5F5; }
   #contact .wpcf7 {
     text-align: center; }
     #contact .wpcf7 .wpcf7-file {

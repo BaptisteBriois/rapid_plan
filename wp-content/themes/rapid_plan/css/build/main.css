@@ -9,7 +9,8 @@
 ========================================= */
 /* Atoms
 ========================================= */
-
+section {
+  padding-bottom: 40px; }
   section h1 {
     text-align: center; }
   section h2 {
@@ -22,8 +23,7 @@
 ========================================= */
 #contact {
   padding-top: 30px;
-  background: url("../../assets/images/contact.jpg") center 0 no-repeat fixed;
-  background-size: cover; }
+  background-color: #F5F5F5; }
   #contact .wpcf7 {
     text-align: center; }
     #contact .wpcf7 .wpcf7-file {
@@ -32,19 +32,21 @@
 .navbar {
   margin-bottom: 0; }
 
-.prestation {
-  padding-left: 0;
-  padding-right: 0;
-  padding-top: 20px;
-  height: 350px;
-  text-align: center;
-  background-size: cover; }
-  .prestation p {
+#prestations {
+  padding-bottom: 0; }
+  #prestations .prestation {
+    padding-left: 0;
+    padding-right: 0;
     padding-top: 20px;
-    padding-left: 30px;
-    padding-right: 30px; }
-  .prestation .prestatext {
-    display: none; }
+    height: 350px;
+    text-align: center;
+    background-size: cover; }
+    #prestations .prestation p {
+      padding-top: 20px;
+      padding-left: 30px;
+      padding-right: 30px; }
+    #prestations .prestation .prestatext {
+      display: none; }
 
 #start {
   padding-top: 300px;
@@ -52,7 +54,6 @@
   background-size: cover; }
 
 #where {
-
   padding-top: 40px;
   background: url("../../assets/images/where.jpg") center 0 no-repeat fixed;
   background-size: cover; }
@@ -67,17 +68,12 @@
 
 #who {
   padding-top: 40px;
-  padding-bottom: 40px;
-  background: url("../../assets/images/who.jpg") center 0 no-repeat fixed;
-  background-size: cover; }
+  background-color: #F5F5F5; }
   #who h3 {
     padding-left: 30px;
     padding-right: 30px; }
   #who a {
     color: grey; }
-
-
-
 
 /* Templates
 ========================================= */
