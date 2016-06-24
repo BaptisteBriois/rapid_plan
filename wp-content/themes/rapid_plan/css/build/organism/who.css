@@ -1,6 +1,9 @@
 #who {
-  padding-top: 40px;
+  padding-top: 30px;
   background-color: #F5F5F5; }
+  @media (max-width: 768px) {
+    #who img {
+      width: 75%; } }
   #who h4 {
     padding-left: 30px;
     padding-right: 30px; }

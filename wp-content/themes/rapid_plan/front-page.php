@@ -27,8 +27,8 @@
             <div class="row">
         <?php while ($getPosts->have_posts()) : $getPosts->the_post(); ?>
 
-            <div class="prestation col-md-6" style="background-image: url(<?php echo wp_get_attachment_url( get_post_thumbnail_id() );?>);" onMouseOver="document.getElementById('presta<?php the_ID(); ?>').style.display='block'" onMouseOut="document.getElementById('presta<?php the_ID(); ?>').style.display='none'">
-                <div id="presta<?php the_ID(); ?>" class="prestatext">
+            <div class="prestation col-md-6" style="background-image: url(<?php echo wp_get_attachment_url( get_post_thumbnail_id() );?>);">
+                <div class="prestatext">
                     <h3><?php the_title(); ?></h3>
                     <?php the_content(); ?>
                 </div>
@@ -50,7 +50,7 @@
 
                 <h3>Montataire</h3>
 
-                <h4>25 rue des Oiseaux<br>
+                <h4>25 rue des Chats<br>
                     60780 Montataire<br>
                     Du lundi au vendredi<br>
                     De 9h à 18h<br>
@@ -65,7 +65,7 @@
 
                 <h3>Compiègne</h3>
 
-                <h4>25 rue des Oiseaux<br>
+                <h4>25 rue des Chats<br>
                     60780 Compiègne<br>
                     Du lundi au vendredi<br>
                     De 9h à 18h<br>

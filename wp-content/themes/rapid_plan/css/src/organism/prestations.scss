@@ -3,17 +3,32 @@
   .prestation {
     padding-left: 0;
     padding-right: 0;
-    padding-top: 20px;
     height: 350px;
     text-align: center;
     background-size: cover;
-    p {
-      padding-top: 20px;
-      padding-left: 30px;
-      padding-right: 30px;
-    }
+    background-position: center;
     .prestatext {
-      display: none;
+      height: 100%;
+      background-color: rgba(0,0,0,0.5);
+      color: white;
+      opacity: 0;
+      -webkit-transition: opacity 500ms linear;
+      -moz-transition: opacity 500ms linear;
+      -o-transition: opacity 500ms linear;
+      transition: opacity 500ms linear;
+      h3 {
+        margin-top: 0;
+        padding-top: 50px;
+      }
+      p {
+         padding-top: 20px;
+         padding-left: 30px;
+         padding-right: 30px;
+      }
+    }
+    &:hover .prestatext {
+       opacity: 1;
     }
   }
+
 }

@@ -64,16 +64,25 @@ section {
   #prestations .prestation {
     padding-left: 0;
     padding-right: 0;
-    padding-top: 20px;
     height: 350px;
     text-align: center;
-    background-size: cover; }
-    #prestations .prestation p {
-      padding-top: 20px;
-      padding-left: 30px;
-      padding-right: 30px; }
+    background-size: cover;
+    background-position: center; }
     #prestations .prestation .prestatext {
-      display: none; }
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5);
+      color: white;
+      opacity: 0;
+      transition: opacity 500ms linear; }
+      #prestations .prestation .prestatext h3 {
+        margin-top: 0;
+        padding-top: 50px; }
+      #prestations .prestation .prestatext p {
+        padding-top: 20px;
+        padding-left: 30px;
+        padding-right: 30px; }
+    #prestations .prestation:hover .prestatext {
+      opacity: 1; }
 
 #start {
   height: 100vh;
@@ -81,7 +90,7 @@ section {
   background-size: cover; }
 
 #where {
-  padding-top: 40px;
+  padding-top: 30px;
   background: url("../../assets/images/where.jpg") center 0 no-repeat fixed;
   background-size: cover; }
   #where .adress {
@@ -96,8 +105,11 @@ section {
       padding-bottom: 20px; } }
 
 #who {
-  padding-top: 40px;
+  padding-top: 30px;
   background-color: #F5F5F5; }
+  @media (max-width: 768px) {
+    #who img {
+      width: 75%; } }
   #who h4 {
     padding-left: 30px;
     padding-right: 30px; }
