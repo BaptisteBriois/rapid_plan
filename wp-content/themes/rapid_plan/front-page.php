@@ -50,13 +50,13 @@
 
                 <h3>Montataire</h3>
 
-                <h4>8-10 rue de Condé<br>
+                <p>8-10 rue de Condé<br>
                     60762 Montataire CEDEX<br>
                     Du lundi au vendredi<br>
                     De 8h30 à 12h et de 13h30 à 18h<br>
                     03.44.25.47.30<br>
                     rapid.plan@wanadoo.fr
-                </h4>
+                </p>
 
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20829.688321557845!2d2.4125888627955128!3d49.2629226333299!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e64bd8730d214b%3A0x6d8085d35e8be162!2sMontataire!5e0!3m2!1sfr!2sfr!4v1466604693787" width="100%" height="400px" frameborder="0" style="border:1px solid" allowfullscreen></iframe>
 
@@ -66,13 +66,13 @@
 
                 <h3>Compiègne</h3>
 
-                <h4>2 rue Jacques de Vaucanson<br>
+                <p>2 rue Jacques de Vaucanson<br>
                     60200 Compiègne<br>
                     Du lundi au vendredi<br>
                     De 9h à 17h<br>
                     03.44.97.56.77<br>
                     crapidplan@orange.fr
-                </h4>
+                </p>
 
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d41542.98353371069!2d2.8198381241021124!3d49.40065106846755!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e7d5e621cbedd7%3A0x40af13e81644610!2s60200+Compi%C3%A8gne!5e0!3m2!1sfr!2sfr!4v1466604795216" width="100%" height="400px" frameborder="0" style="border:1px solid" allowfullscreen></iframe>
 

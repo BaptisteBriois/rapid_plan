@@ -5,7 +5,8 @@
   @media (max-width: 768px) {
     #who img {
       width: 75%; } }
-  #who h4 {
+  #who p {
+    font-size: 18px;
     padding-left: 30px;
     padding-right: 30px; }
   #who a {
