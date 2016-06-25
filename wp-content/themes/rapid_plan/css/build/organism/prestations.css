@@ -12,7 +12,7 @@
       background-color: rgba(0, 0, 0, 0.5);
       color: white;
       opacity: 0;
-      transition: opacity 500ms linear; }
+      transition: opacity 500ms ease; }
       #prestations .prestation .prestatext h3 {
         margin-top: 0;
         padding-top: 50px; }
@@ -20,5 +20,11 @@
         padding-top: 20px;
         padding-left: 30px;
         padding-right: 30px; }
+      @media (min-width: 992px) {
+        #prestations .prestation .prestatext p {
+          font-size: 18px; } }
+      @media (max-width: 992px) {
+        #prestations .prestation .prestatext p {
+          font-size: 15px; } }
     #prestations .prestation:hover .prestatext {
       opacity: 1; }

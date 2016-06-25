@@ -58,7 +58,8 @@ section {
       color: #545454; }
 
 .navbar {
-  margin-bottom: 0; }
+  margin-bottom: 0;
+  border-color: #696969; }
 
 #prestations {
   padding-bottom: 0; }
@@ -74,7 +75,7 @@ section {
       background-color: rgba(0, 0, 0, 0.5);
       color: white;
       opacity: 0;
-      transition: opacity 500ms linear; }
+      transition: opacity 500ms ease; }
       #prestations .prestation .prestatext h3 {
         margin-top: 0;
         padding-top: 50px; }
@@ -82,13 +83,31 @@ section {
         padding-top: 20px;
         padding-left: 30px;
         padding-right: 30px; }
+      @media (min-width: 992px) {
+        #prestations .prestation .prestatext p {
+          font-size: 18px; } }
+      @media (max-width: 992px) {
+        #prestations .prestation .prestatext p {
+          font-size: 15px; } }
     #prestations .prestation:hover .prestatext {
       opacity: 1; }
 
 #start {
   height: 100vh;
-  padding-top: 35vh;
-  background-size: cover; }
+  padding-top: 30vh;
+  background-size: cover;
+  text-align: center; }
+  #start i {
+    margin-top: 10vh;
+    border: 2px solid;
+    width: 74px;
+    border-radius: 100%;
+    background-color: transparent;
+    color: #333;
+    transition: background-color 500ms ease, color 500ms ease; }
+    #start i:hover {
+      background-color: #333;
+      color: white; }
 
 #where {
   padding-top: 30px;
@@ -98,8 +117,8 @@ section {
     text-align: center; }
   @media (min-width: 480px) {
     #where .adress {
-      padding-left: 50px;
-      padding-right: 50px; }
+      padding-left: 30px;
+      padding-right: 30px; }
     #where h3 {
       padding-bottom: 10px; }
     #where p {

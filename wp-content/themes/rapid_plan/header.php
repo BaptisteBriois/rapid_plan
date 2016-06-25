@@ -44,17 +44,8 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="<?php bloginfo( 'template_directory' ); ?>/js/build/jquery.min.js"><\/script>')</script>
 
-        <!-- Important Owl stylesheet -->
-        <link rel="stylesheet" href="<?php bloginfo( 'template_directory' ); ?>/owl-carousel/owl.carousel.css">
-
-        <!-- Default Theme -->
-        <link rel="stylesheet" href="<?php bloginfo( 'template_directory' ); ?>/owl-carousel/owl.theme.css">
-
-        <!--  jQuery 1.7+  -->
-        <script src="<?php bloginfo( 'template_directory' ); ?>/owl-carousel/jquery-1.9.1.min.js"></script>
-
-        <!-- Include js plugin -->
-        <script src="<?php bloginfo( 'template_directory' ); ?>/owl-carousel/owl.carousel.js"></script>
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="<?php bloginfo( 'template_directory' ); ?>/font-awesome-4.6.3/css/font-awesome.min.css">
         <?php wp_head(); ?>
     </head>
 
@@ -74,7 +65,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="http://localhost:8888/rapid_plan/">Brand</a>
+                    <a class="navbar-brand" href="#start">Brand</a>
                 </div>
 
                 <!-- Collect the nav links, forms, and other content for toggling -->
@@ -84,7 +75,6 @@
                         <li><a href="#prestations">Prestations</a></li>
                         <li><a href="#where">Adresses</a></li>
                         <li><a href="#contact">Contact</a></li>
-                        <li><a href="<?php the_permalink(); ?>/shop">Boutique</a></li>
                     </ul>
                 </div><!-- /.navbar-collapse -->
             </div><!-- /.container-fluid -->

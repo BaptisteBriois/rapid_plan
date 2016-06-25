@@ -1,5 +1,23 @@
 #start {
   height: 100vh;
-  padding-top: 35vh;
+  padding-top: 30vh;
   background-size: cover;
+  text-align: center;
+  i {
+    margin-top: 10vh;
+    border: 2px solid;
+    width: 74px;
+    border-radius: 100%;
+    background-color: transparent;
+    color: #333;
+    -webkit-transition: background-color 500ms ease, color 500ms ease;
+    -moz-transition: background-color 500ms ease, color 500ms ease;
+    -o-transition: background-color 500ms ease, color 500ms ease;
+    transition: background-color 500ms ease, color 500ms ease;
+    &:hover {
+      background-color: #333;
+      color: white;
+    }
+  }
+
 }
