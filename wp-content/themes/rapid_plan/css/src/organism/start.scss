@@ -1,6 +1,6 @@
 #start {
   height: 100vh;
-  padding-top: 30vh;
+  padding-top: 25vh;
   background-size: cover;
   text-align: center;
   i {
@@ -19,5 +19,18 @@
       color: white;
     }
   }
-
+  img {
+    width: 300px;
+  }
+  @media (max-width: 480px) {
+    h2 {
+      font-size: 25px;
+    }
+    i {
+      margin-top: 5vh;
+    }
+    img {
+      width: 200px;
+    }
+  }
 }

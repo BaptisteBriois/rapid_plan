@@ -65,7 +65,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="#start">Brand</a>
+                    <a class="navbar-brand" href="#start"><img src="<?php bloginfo( 'template_directory' ); ?>/assets/images/logo.png"></a>
                 </div>
 
                 <!-- Collect the nav links, forms, and other content for toggling -->

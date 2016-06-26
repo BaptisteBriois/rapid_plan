@@ -1,16 +1,19 @@
 .navbar-default {
   background-color: #F5F5F5; }
+  .navbar-default .navbar-brand {
+    padding: 5px 5px; }
   @media (min-width: 768px) {
     .navbar-default .navbar-brand {
-      margin-left: 0 !important;
-      padding: 25px 15px; }
+      margin-left: 0 !important; }
+      .navbar-default .navbar-brand img {
+        width: 90px; }
     .navbar-default .nav {
       margin-right: 0; }
       .navbar-default .nav li a {
         padding-top: 25px;
         padding-bottom: 25px; } }
   @media (max-width: 768px) {
-    .navbar-default .navbar-brand {
-      padding: 20px 20px; }
+    .navbar-default img {
+      width: 80px; }
     .navbar-default .navbar-toggle {
       padding: 15px 15px; } }

@@ -1,6 +1,6 @@
 #start {
   height: 100vh;
-  padding-top: 30vh;
+  padding-top: 25vh;
   background-size: cover;
   text-align: center; }
   #start i {
@@ -14,3 +14,12 @@
     #start i:hover {
       background-color: #333;
       color: white; }
+  #start img {
+    width: 300px; }
+  @media (max-width: 480px) {
+    #start h2 {
+      font-size: 25px; }
+    #start i {
+      margin-top: 5vh; }
+    #start img {
+      width: 200px; } }

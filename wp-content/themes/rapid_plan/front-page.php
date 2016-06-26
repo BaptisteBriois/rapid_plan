@@ -5,7 +5,7 @@
 
     <section id="start" style="background-image: url('<?php bloginfo( 'template_directory' ); ?>/assets/images/start.jpg');">
 
-        <h1>Bienvenue chez<br> Rapid Plan</h1>
+        <h1>Bienvenue chez<br><img src="<?php bloginfo( 'template_directory' ); ?>/assets/images/logo.png"></h1>
         <h2>Le meilleur de la reprographie depuis plus de 50 ans</h2>
         <a href="#who"><i class="fa fa-angle-double-down fa-5x" aria-hidden="true"></i></a>
 
